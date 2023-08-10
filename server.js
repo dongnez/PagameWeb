@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.static(path.join(__dirname,'dist')));
 
-const port = import.meta.env.PORT || 3000
+const PORT = process.env.PORT | 3000
 
 app.get("/api/news", (req, res) => {
   res.json({
@@ -31,6 +31,6 @@ app.get("*", (req, res) => {
 
 
 // Iniciar el servidor
-app.listen(port, () => {
-  console.log(`Servidor corriendo en http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
