@@ -8,9 +8,16 @@ const app = express();
 
 app.use(express.static(path.join(__dirname,'dist')));
 
-const { PORT = 5173 } = process.env;
+const port = process.env.PORT || 3000
 
-app.get("/*", (req, res) => {
+app.get("/api/news", (req, res) => {
+  res.json({
+    title: "¡Los mejores pasos para ahorrar!",
+    image: "https://picsum.photos/200/300",
+  });
+});
+
+app.get("*", (req, res) => {
   res.sendFile(
     path.join(__dirname, "/dist/index.html"),
 
@@ -22,14 +29,8 @@ app.get("/*", (req, res) => {
   );
 });
 
-app.get("/api/news", (req, res) => {
-  res.json({
-    title: "¡Los mejores pasos para ahorrar!",
-    image: "https://picsum.photos/200/300",
-  });
-});
 
 // Iniciar el servidor
-app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+app.listen(port, () => {
+  console.log(`Servidor corriendo en http://localhost:${port}`);
 });
