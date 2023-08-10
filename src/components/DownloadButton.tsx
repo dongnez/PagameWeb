@@ -1,5 +1,6 @@
 import { HTMLAttributes } from 'react';
-import { FaGooglePlay, FaApple } from 'react-icons/fa'; // Importa los íconos de FaGooglePlay y FaApple desde react-icons/fa
+// import { FaGooglePlay, FaApple } from 'react-icons/fa'; // Importa los íconos de FaGooglePlay y FaApple desde react-icons/fa
+
 
 interface DownloadButtonProps {
   device: 'android' | 'ios';
@@ -23,7 +24,7 @@ const DownloadButton = ({ device, className, ...rest}:HTMLAttributes<HTMLButtonE
         ${className}`}
       onClick={handleClick}
     >
-      {isAndroid ? <FaGooglePlay className="mr-2" size={20} /> : <FaApple className="mr-2" size={20}/>}
+      {/* {isAndroid ? <FaGooglePlay className="mr-2" size={20} /> : <FaApple className="mr-2" size={20}/>} */}
       Download for <span className='uppercase'>{device}</span>
     </button>
   );

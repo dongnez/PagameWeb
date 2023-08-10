@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { BsCaretRightFill, BsCaretLeftFill } from 'react-icons/bs'; // Importa los íconos de FaGooglePlay y FaApple desde react-icons/fa
+import { ChevronRight,ChevronLeft } from "react-feather";
 import image1 from "/imagen1.svg";
 import image2 from "/imagen2.svg";
 
@@ -139,12 +139,12 @@ const Carousel = () => {
       <button
        onClick={() => setCurrentPageIndex((prevIndex) => Math.max(0,(prevIndex - 1)))}
        className="absolute text-2xl top-0 bottom-0 left-0 ">
-        <BsCaretLeftFill  />
+        <ChevronLeft  />
       </button>
       <button
         onClick={() => setCurrentPageIndex((prevIndex) => (prevIndex + 1) % pages.length)}
        className="absolute text-2xl top-0  bottom-0 right-0">
-        <BsCaretRightFill />
+        <ChevronRight />
       </button>
     </div>
   );

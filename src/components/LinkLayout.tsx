@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import PagameTitle from "./PagameTitle";
-import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
+import { Menu,  X } from "react-feather";
 import { useMedia } from "react-use";
 
 const routes = [
@@ -47,7 +47,7 @@ const LinkLayout = () => {
           onClick={() => {
             setOpenMenu(!openMenu);
           }}>
-          {openMenu ?  <HiOutlineX /> : <HiOutlineMenuAlt3 /> }
+          {openMenu ?  <X /> : <Menu /> }
         </button>
       </div>
 
