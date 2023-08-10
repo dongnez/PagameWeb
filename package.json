@@ -1,5 +1,6 @@
 {
   "name": "pagameweb",
+  "main": "server.js",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -42,7 +43,6 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   },
-  "main": "postcss.config.js",
   "author": "",
   "license": "ISC"
 }
