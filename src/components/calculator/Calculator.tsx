@@ -2,7 +2,6 @@ import { useEffect,useState } from "react";
 // import Lottie, { LottieRefCurrentProps } from "lottie-react";
 // import confettiData from "./confetti.json";
 // import tickData from "./tick.json";
-import { message } from "antd";
 import PagameTitle from "../PagameTitle";
 
 const Calculator = () => {
@@ -18,7 +17,6 @@ const Calculator = () => {
   // const lottieRef = useRef<LottieRefCurrentProps>(null);
   // const tickRef = useRef<LottieRefCurrentProps>(null);
 
-  const [messageApi, contextNotification] = message.useMessage();
 
   type ApiUser = {
     name: string;
@@ -162,17 +160,17 @@ const Calculator = () => {
 
   const notification = () => {
     if (numberOfPeople === 0) {
-      messageApi.open({
+/*       messageApi.open({
         type: "error",
         content: "Ingrese un número válido de personas (mayor que 0).",
-      });
+      }); */
     }
 
     if (totalAmount === 0) {
-      messageApi.open({
+/*       messageApi.open({
         type: "error",
         content: "Ingrese una cantidad válida (mayor que 0).",
-      });
+      }); */
     }
   };
 
@@ -323,7 +321,6 @@ const Calculator = () => {
         </div>
       )}
 
-      {contextNotification}
     </div>
   );
 };
