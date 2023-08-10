@@ -1,12 +1,10 @@
 import express from "express";
 import path  from "path";
-import { fileURLToPath } from "url";
 import process from "process";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 
-// app.use(express.static(path.join(__dirname,'dist')));
+app.use(express.static(path.join(__dirname,'dist')));
 
 const PORT = process.env.PORT | 3000
 
@@ -18,9 +16,7 @@ app.get("/api/news", (req, res) => {
 });
 
 app.get("*", (req, res) => {
-  res.send("Hola mundo")
-
-/*   res.sendFile(
+  res.sendFile(
     path.join(__dirname, "/dist/index.html"),
 
     function (err) {
@@ -28,7 +24,7 @@ app.get("*", (req, res) => {
         res.status(500).send(err);
       }
     }
-  ); */
+  );
 });
 
 
