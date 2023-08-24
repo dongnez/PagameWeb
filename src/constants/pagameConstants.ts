@@ -1,0 +1,1 @@
+export const PAGAME_WEB_URL = "https://pagame.cyclic.app/"
