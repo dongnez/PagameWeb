@@ -1,12 +1,10 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import PagameTitle from "./PagameTitle";
-import { Menu,  X } from "react-feather";
+import { Menu, X } from "react-feather";
 import { useMedia } from "react-use";
-import { useTranslation } from 'react-i18next';
-
-
-
+import { useTranslation } from "react-i18next";
+import LanguageSelector from "./LanguageSelector";
 
 const LinkLayout = () => {
   const { t } = useTranslation();
@@ -50,8 +48,9 @@ const LinkLayout = () => {
           className="rounded-full "
           onClick={() => {
             setOpenMenu(!openMenu);
-          }}>
-          {openMenu ?  <X /> : <Menu /> }
+          }}
+        >
+          {openMenu ? <X /> : <Menu />}
         </button>
       </div>
 
@@ -65,7 +64,8 @@ const LinkLayout = () => {
         items-center py-2 gap-24 
         transition-all duration-500 ease-in-out 
         pt-14 sm:pt-2 sm:justify-center sm:flex-row sm:static sm:bg-transparent
-        `}>
+        `}
+      >
         {routes.map((route) => (
           <NavLink
             onClick={() => {
@@ -79,10 +79,14 @@ const LinkLayout = () => {
                 isPending ? "pending" : isActive ? "underline text-primary" : ""
               }
               text-white hover:underline`
-            }>
+            }
+          >
             {route.name}
           </NavLink>
         ))}
+        <div>
+          <LanguageSelector/>
+        </div>
       </div>
     </header>
   );
