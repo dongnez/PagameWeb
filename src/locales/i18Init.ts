@@ -1,3 +1,5 @@
+//Eslint disable 
+//
 import es from "./es.json";
 import en from "./en.json";
 import i18n from "i18next";

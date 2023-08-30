@@ -1,4 +1,3 @@
-import { Component } from "react";
 import PagameTitle from "../../components/PagameTitle";
 import { useTranslation } from "react-i18next";
 
