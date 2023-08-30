@@ -7,22 +7,24 @@ import image2 from "/imagen2.svg";
 import Paginator from "./Paginator";
 import PagameTitle from "../../../components/PagameTitle";
 import Calculator from "../../../components/calculator/Calculator";
+import { useTranslation } from "react-i18next";
 
 const Carousel = () => {
+  const {t} = useTranslation();
   const pages = [
     {
-      text: "¿Dividir cuentas con amigos es un caos?",
-      text1: "Disfruta de momentos increíbles sin preocuparte por las cuentas",
+      text: t("home.page1.text1"),
+      text1: t("home.page1.text2"),
       image: image1,
     },
     {
-      text: "¡Hazlo fácil y sin complicaciones con",
-      text1: "Descarga la app y disfruta de cada momento sin preocupaciones",
+      text: t("home.page2.text1"),
+      text1: t("home.page2.text2"),
       image: image2,
     },
     {
       text: "",
-      image: "prueba",
+      image: "",
     },
   ];
 

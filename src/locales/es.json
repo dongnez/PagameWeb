@@ -1,0 +1,121 @@
+{
+   "link":{
+        "inicio":"Inicio",
+        "novedades":"Novedades",
+        "politica-privacidad":"Política de privacidad",
+        "ayuda":"Ayuda"
+   },
+   "defaults":{
+        "download":"Descargar en"
+   },
+   "home":{
+    "page1":{
+        "text1":"¿Dividir cuentas con amigos es un caos?",
+        "text2":"Disfruta de momentos increíbles sin preocuparte por las cuentas"
+    },
+    "page2":{
+        "text1":"¡Hazlo fácil y sin complicaciones con",
+        "text2":"Descarga la app y disfruta de cada momento sin preocupaciones"
+    },
+    "page3":{
+        "title":"¿Cómo funciona",
+        "subtitle":"Ingresa el número de personas y la cantidad total a pagar.",
+        "number":"Número de personas:",
+        "totalquantity":"Cantidad total:",
+        "calculate":"Calcular",
+        "name":"Nombre",
+        "state":"Estado",
+        "quantity":"Cantidad",
+        "action":"Acción",
+        "pay":"Pagar"
+
+    }
+   },
+   "news":{
+        "title":"Novedades y actualizaciones"
+   },
+
+   "privacy":{
+        "title":"Política de Privacidad de",
+        "update-date":"Última actualización: 30 de agosto de 2023",
+        "description":"Bienvenido(a) a Pagame, una aplicación diseñada para simplificar la gestión de gastos en grupos. En Pagame, valoramos y respetamos tu privacidad. Esta Política de Privacidad explica cómo recopilamos, utilizamos, compartimos y protegemos tus datos personales cuando utilizas nuestra aplicación en las plataformas móviles iOS y Android. Al acceder y utilizar Pagame, aceptas los términos descritos en esta política.",
+        "info":{
+            "title":"1. Información que Recopilamos",
+            "points":{
+                "a":"a) Información de Registro: Cuando creas una cuenta en Pagame, solicitamos información básica como tu nombre de usuario, dirección de correo electrónico y contraseña.",
+                "b":"b) Información de Transacciones: Al utilizar la aplicación para compartir gastos en grupos, recopilamos información sobre las transacciones y los gastos compartidos entre los miembros del grupo.",
+                "c":"c) Información de Contacto: Si decides invitar a otros a unirse a tu grupo en Pagame, podemos recopilar información de contacto, incluyendo nombres y direcciones de correo electrónico.",
+                "d":"d) Información del Dispositivo: Recopilamos datos técnicos, como la dirección IP, tipo de dispositivo, versión del sistema operativo y configuración de idioma, con el propósito de mejorar la calidad y seguridad de nuestros servicios."
+            }
+        },
+        "use-info":{
+            "title":"2. Uso de la Información",
+            "intro":"Utilizamos la información recopilada para los siguientes propósitos:",
+            "points":{
+                "a":"Proporcionar y mejorar nuestros servicios, incluyendo la personalización de tu experiencia en la aplicación.",
+                "b":"Administrar tu cuenta y brindar soporte al cliente cuando sea necesario.",
+                "c":"Facilitar la división de gastos y llevar un registro de las transacciones dentro de los grupos.",
+                "d":"Enviarte notificaciones pertinentes sobre tus actividades en Pagame.",
+                "e":"Enviar información y promociones relacionadas con nuestra aplicación, siempre y cuando hayas otorgado tu consentimiento previo para recibir dichas comunicaciones."
+            }
+        },
+        "share-info":{
+            "title":"3. Compartir de la Información",
+            "intro":"Nos comprometemos a proteger tu privacidad y no compartimos tus datos personales con terceros sin tu consentimiento, excepto en los siguientes casos:",
+            "points":{
+                "a":"Con proveedores de servicios que trabajan en nuestro nombre y están sujetos a acuerdos de confidencialidad.",
+                "b":"Cuando sea necesario para cumplir con la ley, regulaciones o solicitudes legales.",
+                "c":"En caso de fusión, adquisición o venta de activos, donde la información del usuario pueda ser transferida como parte de dicha transacción."
+            }
+        },
+        "security":{
+            "title":"4. Seguridad de los Datos",
+            "intro":"Mantenemos medidas de seguridad técnicas y organizativas para proteger tu información contra el acceso no autorizado, la pérdida y la alteración. Sin embargo, es importante recordar que ninguna transmisión de datos por Internet o método de almacenamiento electrónico es completamente seguro."
+        },
+        "integrated-payments":{
+            "title":"5. Pagos Integrados",
+            "intro":"Pagame puede incluir funcionalidades de pagos integrados para facilitar transacciones entre los miembros del grupo. Para ello, utilizamos proveedores de servicios de pago confiables que cumplen con estándares de seguridad de la industria."
+        },
+        "end-privacy":{
+            "info":"Si tienes preguntas o inquietudes sobre esta Política de Privacidad, contáctanos en:",
+            "info2":"Al utilizar Pagame, aceptas los términos y condiciones de esta Política de Privacidad. Gracias por confiar en nosotros para gestionar tus finanzas en grupo de manera segura y eficiente."}
+        
+   },
+   "help":{
+    "title":"¿Necesitas ayuda con",
+    "q1":{
+        "question":"¿Qué es Pagame?",
+        "answer":"Pagame es una innovadora aplicación que simplifica la división de gastos en grupos. Permite compartir gastos de manera equitativa entre amigos, familiares o compañeros de trabajo, facilitando la administración financiera en cualquier ocasión."
+    },
+    "q2":{
+        "question":"¿Cómo puedo usar Pagame?",
+        "answer":"Para utilizar Pagame, primero debes descargar la aplicación desde Google Play o App Store. Luego, crea una cuenta, invita a tus amigos o familiares a un grupo y empieza a registrar los gastos compartidos. Pagame se encargará de calcular automáticamente quién debe cuánto a quién, ¡sin complicaciones!"
+    },
+    "q3":{
+        "question":"¿Es segura mi información financiera en Pagame?",
+        "answer":"Absolutamente. En Pagame, la seguridad de tus datos es nuestra máxima prioridad. Utilizamos tecnología de encriptación avanzada para proteger tu información financiera y garantizar que tus transacciones sean seguras y confidenciales."
+    },
+    "q4":{
+        "question":"¿Qué dispositivos son compatibles con Pagame?",
+        "answer":"Pagame es compatible con dispositivos Android e iOS. Puedes descargar la aplicación desde Google Play o App Store según tu dispositivo."
+    },
+    "q5":{
+        "question":"¿Puedo acceder a Pagame desde múltiples dispositivos?",
+        "answer":"Sí, Pagame está diseñada para que puedas acceder a tu cuenta desde diferentes dispositivos. Solo necesitas iniciar sesión con tus credenciales en cualquier dispositivo compatible y accederás a tus grupos y transacciones registradas."
+    },
+    "q6":{
+        "question":"¿Qué pasa si alguien no paga su parte?",
+        "answer":"Si alguien no paga su parte, Pagame te mostrará el saldo pendiente y podrás recordarles amigablemente. Si es necesario, también puedes agregar el monto pendiente en una transacción futura para mantener un registro preciso de las deudas."
+    },
+    "q7":{
+        "question":"¿Puedo eliminar un gasto registrado por error?",
+        "answer":"Sí, puedes eliminar un gasto registrado por error. Simplemente ve a la sección de transacciones y selecciona el gasto que deseas eliminar. Luego, elige la opción de eliminar y listo."
+    },
+    "contact":"Ponte en contacto con nosotros a través de:"
+   },
+
+   "buttons":{
+        "android":"Descargar en ANDROID",
+        "ios":"Descargar en IOS"
+   }
+}
