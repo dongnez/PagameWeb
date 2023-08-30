@@ -3,6 +3,7 @@ import { useEffect,useState } from "react";
 // import confettiData from "./confetti.json";
 // import tickData from "./tick.json";
 import PagameTitle from "../PagameTitle";
+import { useTranslation } from "react-i18next";
 
 const Calculator = () => {
   const [numberOfPeople, setNumberOfPeople] = useState(0);
@@ -173,20 +174,21 @@ const Calculator = () => {
       }); */
     }
   };
+  const {t} = useTranslation();
 
   return (
     <div className="p-8 rounded-lg text-sm">
       <div className="flex text-3xl justify-center">
-        <h1 className="mr-1">¿Cómo funciona </h1>
+        <h1 className="mr-1">{t("home.page3.title")} </h1>
         <PagameTitle className="text-3xl" />
         <h1>?</h1>
       </div>
       <p className="text-gray-500 mb-4 justify-center flex">
-        Ingresa el número de personas y la cantidad total a pagar.
+      {t("home.page3.subtitle")}
       </p>
       <div className="rounded-lg shadow-md">
         <div className="flex items-center justify-between mb-4">
-          <div className="text-white text-base sm:text-lg">Número de personas:</div>
+          <div className="text-white text-base sm:text-lg">{t("home.page3.number")}</div>
           <input
             type="number"
             value={numberOfPeople}
@@ -202,7 +204,7 @@ const Calculator = () => {
         </div>
 
         <div className="flex items-center justify-between mb-4">
-          <div className="text-base sm:text-lg font-semibold">Cantidad total:</div>
+          <div className="text-base sm:text-lg font-semibold">{t("home.page3.totalquantity")}</div>
           <input
             type="number"
             value={totalAmount}
@@ -221,7 +223,7 @@ const Calculator = () => {
             onClick={handleCalculate}
             className="bg-blue-500 text-white text-base sm:text-lg px-4 py-2 rounded-full hover:bg-blue-600 w-32"
           >
-            Calcular
+            {t("home.page3.calculate")}
           </button>
         </div>
       </div>
@@ -234,16 +236,16 @@ const Calculator = () => {
               <thead className="bg-black text-white border-b border-white">
                 <tr>
                   <th className="py-3 px-1 sm:px-4 text-center">
-                    <div className="font-bold text-sm sm:text-lg">Nombre</div>
+                    <div className="font-bold text-sm sm:text-lg">{t("home.page3.name")}</div>
                   </th>
                   <th className="py-3 px-1  sm:px-4 text-center">
-                    <div className="font-bold text-sm sm:text-lg">Estado</div>
+                    <div className="font-bold text-sm sm:text-lg">{t("home.page3.state")}</div>
                   </th>
                   <th className="py-3 px-1 sm:px-4 text-center">
-                    <div className="font-bold text-sm sm:text-lg">Cantidad</div>
+                    <div className="font-bold text-sm sm:text-lg">{t("home.page3.quantity")}</div>
                   </th>
                   <th className="py-3 px-1 sm:px-4 text-center">
-                    <div className="font-bold text-sm sm:text-lg">Acción</div>
+                    <div className="font-bold text-sm sm:text-lg">{t("home.page3.action")}</div>
                   </th>
                 </tr>
               </thead>
@@ -296,10 +298,10 @@ const Calculator = () => {
                     <td className="py-2 px-4 border-b border-gray-700">
                       {index !== 0 && !hasPaid[index] && (
                         <button
-                          className="text-white bg-blue-500 hover:bg-blue-600 py-2 px-4 rounded-full"
+                          className="text-white bg-blue-500 uppercase hover:bg-blue-600 py-2 px-4 rounded-full"
                           onClick={() => handlePay(index)}
                         >
-                          PAGAR
+                          {t("home.page3.pay")}
                         </button>
                       )}
                     </td>

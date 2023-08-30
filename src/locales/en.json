@@ -1,0 +1,119 @@
+{
+   "link":{
+        "inicio":"Home",
+        "novedades":"News",
+        "politica-privacidad":"Privacy Policy",
+        "ayuda":"Help"
+   },
+   "defaults":{
+        "download":"Download on"
+   },
+   "home":{
+    "page1":{
+        "text1":"Is splitting bills with friends a mess?",
+        "text2":"Enjoy incredible moments without worrying about the bills"
+    },
+    "page2":{
+        "text1":"Make it easy and hassle-free with",
+        "text2":"Download the app and enjoy every moment without worries"
+    },
+    "page3":{
+        "title":"How does it work",
+        "subtitle":"Enter the number of people and the total amount to pay.",
+        "number":"Number of people:",
+        "totalquantity":"Total amount:",
+        "calculate":"Calculate",
+        "name":"Name",
+        "state":"State",
+        "quantity":"Quantity",
+        "action":"Action",
+        "pay":"Pay"
+    }
+   },
+   "news":{
+        "title":"News and Updates"
+   },
+
+   "privacy":{
+        "title":"Privacy Policy of",
+        "update-date":"Last Updated: August 30, 2023",
+        "description":"Welcome to Pagame, an application designed to simplify expense management in groups. At Pagame, we value and respect your privacy. This Privacy Policy explains how we collect, use, share, and protect your personal data when you use our application on the iOS and Android mobile platforms. By accessing and using Pagame, you agree to the terms outlined in this policy.",
+        "info":{
+            "title":"1. Information We Collect",
+            "points":{
+                "a":"a) Registration Information: When you create an account on Pagame, we ask for basic information such as your username, email address, and password.",
+                "b":"b) Transaction Information: When using the application to share expenses in groups, we collect information about transactions and shared expenses among group members.",
+                "c":"c) Contact Information: If you choose to invite others to join your group on Pagame, we may collect contact information, including names and email addresses.",
+                "d":"d) Device Information: We collect technical data such as IP address, device type, operating system version, and language settings for the purpose of improving the quality and security of our services."
+            }
+        },
+        "use-info":{
+            "title":"2. Use of Information",
+            "intro":"We use the collected information for the following purposes:",
+            "points":{
+                "a":"To provide and improve our services, including personalizing your experience in the application.",
+                "b":"To manage your account and provide customer support when necessary.",
+                "c":"To facilitate the division of expenses and keep a record of transactions within groups.",
+                "d":"To send you relevant notifications about your activities on Pagame.",
+                "e":"To send information and promotions related to our application, provided you have given prior consent to receive such communications."
+            }
+        },
+        "share-info":{
+            "title":"3. Sharing of Information",
+            "intro":"We are committed to protecting your privacy and do not share your personal data with third parties without your consent, except in the following cases:",
+            "points":{
+                "a":"With service providers working on our behalf and subject to confidentiality agreements.",
+                "b":"When necessary to comply with the law, regulations, or legal requests.",
+                "c":"In the event of a merger, acquisition, or sale of assets, where user information may be transferred as part of such transaction."
+            }
+        },
+        "security":{
+            "title":"4. Data Security",
+            "intro":"We maintain technical and organizational security measures to protect your information against unauthorized access, loss, and alteration. However, it's important to remember that no transmission of data over the Internet or electronic storage method is completely secure."
+        },
+        "integrated-payments":{
+            "title":"5. Integrated Payments",
+            "intro":"Pagame may include integrated payment features to facilitate transactions among group members. For this purpose, we use reliable payment service providers that adhere to industry security standards."
+        },
+        "end-privacy":{
+            "info":"If you have questions or concerns about this Privacy Policy, contact us at:",
+            "info2":"By using Pagame, you agree to the terms and conditions of this Privacy Policy. Thank you for trusting us to securely and efficiently manage your group finances."
+        }
+   },
+   "help":{
+    "title":"Need Help with",
+    "q1":{
+        "question":"What is Pagame?",
+        "answer":"Pagame is an innovative application that simplifies expense sharing in groups. It allows for fair sharing of expenses among friends, family, or coworkers, making financial management hassle-free for any occasion."
+    },
+    "q2":{
+        "question":"How can I use Pagame?",
+        "answer":"To use Pagame, you first need to download the application from Google Play or the App Store. Then, create an account, invite your friends or family to a group, and start recording shared expenses. Pagame will automatically calculate who owes what to whom, with no complications!"
+    },
+    "q3":{
+        "question":"Is my financial information secure in Pagame?",
+        "answer":"Absolutely. At Pagame, the security of your data is our top priority. We use advanced encryption technology to protect your financial information and ensure that your transactions are safe and confidential."
+    },
+    "q4":{
+        "question":"Which devices are compatible with Pagame?",
+        "answer":"Pagame is compatible with both Android and iOS devices. You can download the application from Google Play or the App Store, depending on your device."
+    },
+    "q5":{
+        "question":"Can I access Pagame from multiple devices?",
+        "answer":"Yes, Pagame is designed for you to access your account from different devices. Simply log in with your credentials on any compatible device, and you'll have access to your groups and recorded transactions."
+    },
+    "q6":{
+        "question":"What if someone doesn't pay their share?",
+        "answer":"If someone doesn't pay their share, Pagame will show you the outstanding balance, and you can kindly remind them. If needed, you can also add the pending amount to a future transaction to maintain an accurate record of debts."
+    },
+    "q7":{
+        "question":"Can I delete an expense registered by mistake?",
+        "answer":"Yes, you can delete an expense registered by mistake. Just go to the transactions section, select the expense you want to delete, choose the delete option, and you're done."
+    },
+    "contact":"Get in touch with us at:"
+   },
+   "buttons":{
+        "android":"Download on ANDROID",
+        "ios":"Download on IOS"
+   }
+}

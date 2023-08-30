@@ -1,4 +1,5 @@
 import { HTMLAttributes } from "react";
+import { useTranslation } from "react-i18next";
 // import { FaGooglePlay, FaApple } from 'react-icons/fa'; // Importa los íconos de FaGooglePlay y FaApple desde react-icons/fa
 
 interface DownloadButtonProps {
@@ -19,6 +20,7 @@ const DownloadButton = ({
       console.log("ENLACE DE APPLE");
     }
   };
+  const { t } = useTranslation();
 
   return (
     <button
@@ -27,7 +29,7 @@ const DownloadButton = ({
         ${className}`}
       onClick={handleClick}>
       {/* {isAndroid ? <FaGooglePlay className="mr-2" size={20} /> : <FaApple className="mr-2" size={20}/>} */}
-      Download for <span className="uppercase">{device}</span>
+      {t("defaults.download")} <span className="uppercase">{device}</span>
     </button>
   );
 };

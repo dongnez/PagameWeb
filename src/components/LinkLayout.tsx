@@ -3,29 +3,33 @@ import { Link, NavLink } from "react-router-dom";
 import PagameTitle from "./PagameTitle";
 import { Menu,  X } from "react-feather";
 import { useMedia } from "react-use";
+import { useTranslation } from 'react-i18next';
 
-const routes = [
-  {
-    name: "Inicio",
-    path: "/",
-  },
-  {
-    name: "Novedades",
-    path: "/novedades",
-  },
-  {
-    name: "Política de privacidad",
-    path: "/politica-privacidad",
-  },
-  {
-    name: "Ayuda",
-    path: "/ayuda",
-  },
-];
+
+
 
 const LinkLayout = () => {
+  const { t } = useTranslation();
   const [openMenu, setOpenMenu] = useState(true);
   const isMobile = useMedia("(max-width: 640px)");
+  const routes = [
+    {
+      name: t("link.inicio"),
+      path: "/",
+    },
+    {
+      name: t("link.novedades"),
+      path: "/novedades",
+    },
+    {
+      name: t("link.politica-privacidad"),
+      path: "/politica-privacidad",
+    },
+    {
+      name: t("link.ayuda"),
+      path: "/ayuda",
+    },
+  ];
 
   // Use useEffect to detect window size and set openMenu to true based on width
   useEffect(() => {
