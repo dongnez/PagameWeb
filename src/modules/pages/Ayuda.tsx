@@ -10,7 +10,6 @@ export const Ayuda = () => {
         <PagameTitle className="text-3xl" />
         <h2>?</h2>
       </div>
-
       
       <h3 className="text-xl font-bold mb-2">{t("help.q1.question")}</h3>
       <p className="mb-4">{t("help.q1.answer")}</p>
