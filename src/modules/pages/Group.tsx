@@ -25,8 +25,8 @@ export const Group = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center">
-      <p className="text-white text-6xl">Group {id}</p>
+    <div className="flex flex-col items-center overflow-auto">
+      <p className="text-white text-xl sm:text-5xl text-ellipsis max-w-[250px] sm:max-w-none ">Group {id}</p>
 
       <button 
 	  onClick={()=>{
